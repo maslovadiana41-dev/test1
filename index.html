@@ -3,21 +3,134 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой первый сайт </title>
+    <meta name="description" content="Продажа и установка штор под ключ: замер, подбор тканей, пошив и монтаж.">
+    <title>Diana Decor — шторы с установкой</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600&amp;display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-
-    <header>
-        <h1>Мой первый сайт CODEX</h1>
-        <p>Создан с помощью Codex AI</p>
+    <header class="site-header">
+        <a class="logo" href="#top" aria-label="Diana Decor — на главную">
+            <span class="logo-mark">D</span>
+            <span>Diana <em>Decor</em></span>
+        </a>
+        <nav aria-label="Основная навигация">
+            <a href="#catalog">Коллекции</a>
+            <a href="#services">Услуги</a>
+            <a href="#about">О нас</a>
+        </nav>
+        <a class="header-cta" href="#contact">Вызвать замерщика</a>
     </header>
 
-    <main>
-        <h2>Добро пожаловать!</h2>
-        <p>Здесь будет мой будущий проект.</p>
+    <main id="top">
+        <section class="hero">
+            <div class="hero-copy">
+                <p class="eyebrow">Шторы на заказ · Продажа и установка</p>
+                <h1>Оформляем окна.<br><span>Создаём настроение.</span></h1>
+                <p class="hero-text">Подберём ткани, сошьём шторы по вашим размерам и аккуратно установим карнизы — всё в одном месте.</p>
+                <div class="hero-actions">
+                    <a class="button button-primary" href="#contact">Получить консультацию <span>→</span></a>
+                    <a class="text-link" href="#catalog">Смотреть коллекции</a>
+                </div>
+                <ul class="hero-features" aria-label="Наши преимущества">
+                    <li><strong>7 лет</strong><span>создаём уют</span></li>
+                    <li><strong>500+</strong><span>готовых проектов</span></li>
+                    <li><strong>2 года</strong><span>гарантии на пошив</span></li>
+                </ul>
+            </div>
+            <div class="hero-visual" aria-label="Интерьер с дизайнерскими шторами">
+                <div class="sun"></div>
+                <div class="window">
+                    <div class="window-view"></div>
+                    <div class="curtain curtain-left"></div>
+                    <div class="curtain curtain-right"></div>
+                </div>
+                <div class="sofa"><span></span><span></span></div>
+                <div class="plant"><i></i><i></i><i></i></div>
+                <div class="visual-note">
+                    <span>Бесплатный выезд</span>
+                    <strong>с образцами тканей</strong>
+                </div>
+            </div>
+        </section>
+
+        <section class="collections section" id="catalog">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">Для каждого интерьера</p>
+                    <h2>Выберите своё решение</h2>
+                </div>
+                <p>От воздушного тюля до полного затемнения — найдём сочетание, которое дополнит ваш дом.</p>
+            </div>
+            <div class="collection-grid">
+                <article class="collection-card card-classic">
+                    <span class="card-number">01</span>
+                    <div class="fabric-swatch"></div>
+                    <h3>Классические шторы</h3>
+                    <p>Мягкие складки и благородные ткани для спальни и гостиной.</p>
+                </article>
+                <article class="collection-card card-roman">
+                    <span class="card-number">02</span>
+                    <div class="fabric-swatch"></div>
+                    <h3>Римские шторы</h3>
+                    <p>Лаконичное решение для кухни, кабинета или детской комнаты.</p>
+                </article>
+                <article class="collection-card card-blackout">
+                    <span class="card-number">03</span>
+                    <div class="fabric-swatch"></div>
+                    <h3>Blackout</h3>
+                    <p>Комфортный сон и защита от яркого света в любое время суток.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="services section" id="services">
+            <div class="service-intro">
+                <p class="eyebrow">Всё берём на себя</p>
+                <h2>От идеи до готового окна</h2>
+                <p>Вам не нужно искать разных мастеров. Наш специалист сопровождает проект на каждом этапе.</p>
+                <a class="text-link" href="#contact">Обсудить ваш проект →</a>
+            </div>
+            <ol class="steps">
+                <li><span>01</span><div><h3>Выезд и замер</h3><p>Приедем в удобное время с каталогами тканей и точно измерим окна.</p></div></li>
+                <li><span>02</span><div><h3>Дизайн и пошив</h3><p>Подготовим эскиз, рассчитаем стоимость и сошьём комплект в нашей мастерской.</p></div></li>
+                <li><span>03</span><div><h3>Доставка и монтаж</h3><p>Установим карнизы, отпарим и красиво развесим готовые шторы.</p></div></li>
+            </ol>
+        </section>
+
+        <section class="about section" id="about">
+            <div class="quote-mark">“</div>
+            <blockquote>Правильно подобранные шторы меняют не только окно — они меняют ощущение от всего дома.</blockquote>
+            <p>— Диана, дизайнер и основатель студии</p>
+        </section>
+
+        <section class="contact section" id="contact">
+            <div>
+                <p class="eyebrow">Начнём с консультации</p>
+                <h2>Расскажите о ваших окнах</h2>
+                <p>Оставьте контакты — мы свяжемся с вами, ответим на вопросы и договоримся о бесплатном замере.</p>
+            </div>
+            <form class="contact-form">
+                <label>
+                    <span>Ваше имя</span>
+                    <input type="text" name="name" placeholder="Как к вам обращаться?" required>
+                </label>
+                <label>
+                    <span>Телефон</span>
+                    <input type="tel" name="phone" placeholder="+7 (___) ___-__-__" required>
+                </label>
+                <button class="button button-primary" type="submit">Записаться на замер <span>→</span></button>
+                <small>Нажимая кнопку, вы соглашаетесь с обработкой персональных данных.</small>
+            </form>
+        </section>
     </main>
 
+    <footer>
+        <a class="logo logo-light" href="#top"><span class="logo-mark">D</span><span>Diana <em>Decor</em></span></a>
+        <p>Шторы, которые хочется рассматривать.</p>
+        <p>© 2026 Diana Decor</p>
+    </footer>
 </body>
 </html>
