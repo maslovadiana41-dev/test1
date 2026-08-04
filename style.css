@@ -166,3 +166,45 @@ footer { padding: 28px clamp(24px,6vw,96px); display: flex; align-items: center;
   .contact-grid { grid-template-columns: 1fr; gap: 45px; }.form-card { padding: 24px 18px; box-shadow: 7px 7px 0 var(--acid); }.cnt-msng { flex-direction: column; }.contact-info h2 { font-size: 38px; }
   footer { flex-direction: column; text-align: center; }.float-btns { right: 14px; bottom: 14px; }.fb { width: 48px; height: 48px; }
 }
+
+/* Refined brand, iconography and card layouts */
+.icon { width: 20px; height: 20px; flex: 0 0 auto; fill: none; stroke: currentColor; stroke-width: 1.7; stroke-linecap: round; stroke-linejoin: round; vertical-align: middle; }
+.hdr-logo img { width: 178px; height: auto; filter: none; }
+.hero-logo img { width: min(280px, 72vw); height: auto; filter: none; }
+.footer-logo img { width: 190px; height: auto; filter: none; }
+.hero-geo .icon { width: 15px; height: 15px; margin-right: 7px; color: var(--acid); }
+.hc-icon { display: contents; }
+.hc .icon { width: 17px; height: 17px; color: var(--acid); }
+.badge { display: inline-flex; align-items: center; gap: 8px; }
+.badge .icon { width: 17px; height: 17px; }
+.work-tag { display: flex; align-items: center; gap: 6px; }
+.work-tag .icon { width: 14px; height: 14px; }
+.master-mark { width: 132px; height: 132px; fill: none; stroke: var(--acid); stroke-width: 5; stroke-linecap: round; stroke-linejoin: round; }
+.mbadge { display: inline-flex; align-items: center; gap: 7px; }
+.mbadge .icon { width: 15px; height: 15px; color: var(--acid); }
+.adv-icon,.adv-dark-icon,.price-icon,.trust-icon,.cdet-i { filter: none; }
+.adv-icon .icon,.adv-dark-icon .icon { width: 22px; height: 22px; }
+.price-icon .icon { width: 32px; height: 32px; color: #5d882a; }
+.dc-pct .icon { width: 42px; height: 42px; }
+.trust-icon .icon { width: 26px; height: 26px; }
+.cdet-i .icon { width: 18px; height: 18px; }
+.fwa .icon,.ftg .icon { width: 17px; height: 17px; }
+.stars { color: #5f882d; font: 600 15px var(--mono); letter-spacing: 3px; }
+
+/* Cards now read as independent modules instead of tables */
+.adv-grid,.adv-dark-grid,.prices-grid,.steps-grid,.disc-grid { gap: 14px; background: transparent; border: 0; }
+.adv-item,.adv-dark-card,.price-card,.step,.dc { border: 1px solid var(--line); border-radius: 10px; transition: transform .2s ease, border-color .2s ease, box-shadow .2s ease, background .2s ease; }
+.adv-item:hover,.price-card:hover,.step:hover { transform: translateY(-4px); border-color: #94be61; box-shadow: 0 14px 35px rgba(13,13,13,.08); }
+.adv-dark-card,.dc { border-color: #383838; }
+.adv-dark-card:hover,.dc:hover { transform: translateY(-4px); border-color: #668b38; }
+.price-card.hot { border-color: #8ab84f; }
+.disc-grid { background: transparent; border: 0; }
+.trust { padding: 24px clamp(24px,6vw,96px)!important; }
+.trust-grid { gap: 10px; }
+.trust-item { min-height: 164px; background: rgba(255,255,255,.2); border: 1px solid rgba(13,13,13,.16); border-radius: 9px; }
+
+@media(max-width:760px) {
+  .hdr-logo img { width: 145px; }
+  .footer-logo img { width: 175px; }
+  .adv-grid,.adv-dark-grid,.prices-grid,.steps-grid,.disc-grid { gap: 10px; }
+}
