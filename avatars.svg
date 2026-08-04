@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <symbol id="master" viewBox="0 0 180 180">
+      <circle cx="90" cy="90" r="86" fill="#e8d2ba"/>
+      <path d="M34 170c4-43 25-67 56-67s52 24 56 67" fill="#857362"/>
+      <circle cx="90" cy="73" r="34" fill="#d6a982"/>
+      <path d="M56 70c2-31 16-46 36-46 25 0 37 19 35 49-11-5-19-14-24-27-10 14-25 22-47 24Z" fill="#4d4138"/>
+      <path d="M76 78h.1M104 78h.1" stroke="#40362f" stroke-width="5" stroke-linecap="round"/>
+      <path d="M81 92c6 5 13 5 19 0" fill="none" stroke="#9b684e" stroke-width="3" stroke-linecap="round"/>
+      <path d="M57 53h66l-10-22H67Z" fill="#b69b7d"/><path d="M64 53h52" stroke="#f7efe5" stroke-width="5"/>
+    </symbol>
+    <symbol id="avatar-1" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#d8c1a7"/><circle cx="24" cy="19" r="9" fill="#bc8d69"/><path d="M9 48c1-12 6-18 15-18s14 6 15 18" fill="#7d8b78"/><path d="M15 18c1-9 5-13 10-13 7 0 10 5 10 14-7-1-12-4-15-9-1 4-3 7-5 8Z" fill="#55483f"/></symbol>
+    <symbol id="avatar-2" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#ead8c2"/><circle cx="24" cy="19" r="9" fill="#d3a47d"/><path d="M9 48c1-12 6-18 15-18s14 6 15 18" fill="#ad8d9c"/><path d="M14 20C13 9 18 4 24 4c8 0 12 6 10 17-3-7-7-11-12-12-1 5-4 9-8 11Z" fill="#8d6048"/></symbol>
+    <symbol id="avatar-3" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#d8c8b6"/><circle cx="24" cy="19" r="9" fill="#aa7859"/><path d="M9 48c1-12 6-18 15-18s14 6 15 18" fill="#71818c"/><path d="M15 17c0-8 4-12 10-12 7 0 10 5 9 14-4-5-10-7-19-2Z" fill="#3f3733"/></symbol>
+    <symbol id="avatar-4" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#ebd7c1"/><circle cx="24" cy="19" r="9" fill="#c99672"/><path d="M9 48c1-12 6-18 15-18s14 6 15 18" fill="#8a8571"/><path d="M13 19C13 8 18 3 24 3c9 0 13 7 11 18-5-8-12-12-22-2Z" fill="#c29c6f"/></symbol>
+    <symbol id="avatar-5" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#d7c3ad"/><circle cx="24" cy="19" r="9" fill="#af7e5c"/><path d="M9 48c1-12 6-18 15-18s14 6 15 18" fill="#766c7c"/><path d="M14 18c1-9 5-13 11-13 7 0 10 5 10 13-7-5-14-6-21 0Z" fill="#4b4039"/></symbol>
+    <symbol id="avatar-6" viewBox="0 0 48 48"><circle cx="24" cy="24" r="24" fill="#ead6be"/><circle cx="24" cy="19" r="9" fill="#d1a17d"/><path d="M9 48c1-12 6-18 15-18s14 6 15 18" fill="#9b7b72"/><path d="M13 20C12 8 17 3 24 3c9 0 13 7 11 18-4-7-9-11-15-12-1 5-3 9-7 11Z" fill="#765343"/></symbol>
+  </defs>
+</svg>
