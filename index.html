@@ -19,6 +19,8 @@ ym(109747590,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webv
 <!-- /Яндекс Метрика -->
 
 <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://images.unsplash.com">
+<link rel="preload" as="image" href="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=2000&amp;q=88">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -44,8 +46,8 @@ ym(109747590,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webv
   <div class="hero-content">
     <div class="hero-logo"><img src="logo.svg" alt="Жалюзи и шторы MSK"></div>
     <div class="hero-geo"><svg class="icon" aria-hidden="true"><use href="icons.svg#pin"></use></svg> Москва и Московская область · в пределах МКАД</div>
-    <h1>Жалюзи и рулонные<br>шторы <em>на заказ</em></h1>
-    <p class="hero-sub">Изготовление по размерам вашего окна за 3–7 дней</p>
+    <h1>Шторы и жалюзи<br><em>на заказ с установкой</em></h1>
+    <p class="hero-sub">Продажа, точный замер, изготовление и аккуратный монтаж под ключ в Москве и Московской области</p>
     <div class="hero-checks">
       <div class="hc"><span class="hc-icon"><svg class="icon" aria-hidden="true"><use href="icons.svg#check"></use></svg></span> Бесплатный выезд на замер</div>
       <div class="hc"><span class="hc-icon"><svg class="icon" aria-hidden="true"><use href="icons.svg#check"></use></svg></span> Установка под ключ — входит в стоимость</div>
@@ -85,7 +87,7 @@ ym(109747590,"init",{clickmap:true,trackLinks:true,accurateTrackBounce:true,webv
   <div class="sec-title">Примеры решений в интерьере</div>
   <p class="sec-sub">Живые интерьерные фотографии помогают оценить разные типы оформления окон. Нажмите на фото, чтобы рассмотреть подробнее.</p>
   <div class="works-grid">
-    <div class="work-card" onclick="openLb(0)"><div class="work-img"><img src="https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Горизонтальные жалюзи" loading="lazy"><div class="work-tag"><svg class="icon" aria-hidden="true"><use href="icons.svg#home"></use></svg> Квартира · Горизонтальные жалюзи</div></div><div class="work-info"><div class="work-title">Горизонтальные жалюзи</div><div class="work-note">Белые · Без сверления на раму</div></div></div>
+    <div class="work-card" onclick="openLb(0)"><div class="work-img"><img src="https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Горизонтальные жалюзи" loading="lazy"><div class="work-tag"><svg class="icon" aria-hidden="true"><use href="icons.svg#home"></use></svg> Квартира · Горизонтальные жалюзи</div></div><div class="work-info"><div class="work-title">Горизонтальные жалюзи</div><div class="work-note">Белые · Без сверления на раму</div></div></div>
     <div class="work-card" onclick="openLb(1)"><div class="work-img"><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Вертикальные жалюзи офис" loading="lazy"><div class="work-tag"><svg class="icon" aria-hidden="true"><use href="icons.svg#building"></use></svg> Офис · Вертикальные жалюзи</div></div><div class="work-info"><div class="work-title">Вертикальные жалюзи</div><div class="work-note">Серые · Большие панорамные окна</div></div></div>
     <div class="work-card" onclick="openLb(2)"><div class="work-img"><img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Blackout с LED" loading="lazy"><div class="work-tag"><svg class="icon" aria-hidden="true"><use href="icons.svg#moon"></use></svg> Спальня · Blackout</div></div><div class="work-info"><div class="work-title">Рулонные шторы Blackout</div><div class="work-note">Серые · Полное затемнение</div></div></div>
     <div class="work-card" onclick="openLb(3)"><div class="work-img"><img src="https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&amp;fit=crop&amp;w=1200&amp;q=82" alt="Рулонные с рисунком" loading="lazy"><div class="work-tag"><svg class="icon" aria-hidden="true"><use href="icons.svg#home"></use></svg> Квартира · С рисунком</div></div><div class="work-info"><div class="work-title">Рулонные шторы с рисунком</div><div class="work-note">Принт «листья» · Декоративная ткань</div></div></div>
@@ -328,7 +330,7 @@ function doSubmit(){
 }
 
 var lbData=[
-  {src:'https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=1600&q=88',cap:'Горизонтальные жалюзи · Квартира'},
+  {src:'https://images.unsplash.com/photo-1615529182904-14819c35db37?auto=format&fit=crop&w=1600&q=88',cap:'Горизонтальные жалюзи · Квартира'},
   {src:'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1600&q=88',cap:'Вертикальные жалюзи · Офис'},
   {src:'https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?auto=format&fit=crop&w=1600&q=88',cap:'Рулонные шторы Blackout · Спальня'},
   {src:'https://images.unsplash.com/photo-1600607687920-4e2a09cf159d?auto=format&fit=crop&w=1600&q=88',cap:'Рулонные шторы с рисунком · Квартира'},

@@ -278,3 +278,46 @@ footer { color: var(--ink); background: #e8dccd; border-top-color: #d6c6b4; }.fo
   .hero-phone { justify-content: flex-start; }
   .hero-stats { right: 20px; left: 20px; transform: none; }
 }
+
+
+/* Interior-led opening screen */
+.hero {
+  min-height: 920px;
+  padding-top: 72px;
+  color: #3d342d;
+  background-image: linear-gradient(90deg,rgba(52,43,36,.48) 0%,rgba(68,54,44,.25) 45%,rgba(68,54,44,.08) 100%),url("https://images.unsplash.com/photo-1505693416388-ac5ce068fe85?auto=format&fit=crop&w=2000&q=88");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero::before { content: ''; position: absolute; inset: 0; background: linear-gradient(180deg,rgba(34,28,24,.08),rgba(34,28,24,.16)); pointer-events: none; }
+.hero::after { color: rgba(255,255,255,.58); }
+.hero-pattern { display: none; }
+.hero-content {
+  width: min(820px,calc(100% - 48px));
+  margin-right: auto;
+  margin-left: clamp(0px,3vw,46px);
+  padding: 54px;
+  align-items: flex-start;
+  text-align: left;
+  background: rgba(255,250,243,.9);
+  border: 1px solid rgba(255,255,255,.68);
+  border-radius: 30px;
+  box-shadow: 0 30px 90px rgba(45,34,27,.22);
+  backdrop-filter: blur(14px);
+}
+.hero-logo img { width: min(245px,65vw); }
+.hero h1 { max-width: 740px; font-size: clamp(46px,6vw,76px); }
+.hero h1 em { color: #87654d; }
+.hero-sub { max-width: 670px; color: #65594f; font-size: 18px; }
+.hero-checks { width: 100%; background: rgba(142,110,84,.12); }
+.hero-btns,.hero-phone { justify-content: flex-start; }
+.hero-stats { bottom: 30px; color: #3d342d; background: rgba(255,250,243,.91); border-color: rgba(255,255,255,.72); border-radius: 16px; box-shadow: 0 18px 55px rgba(45,34,27,.2); backdrop-filter: blur(12px); overflow: hidden; }
+.hero-stats .stat { background: transparent; border-color: rgba(121,93,70,.16); }
+@media(max-width:760px) {
+  .hero { min-height: 1110px; padding: 74px 16px 160px; background-position: 62% center; }
+  .hero-content { width: 100%; margin: 0; padding: 30px 22px; border-radius: 22px; }
+  .hero h1 { font-size: clamp(38px,11.5vw,54px); }
+  .hero-sub { font-size: 15px; }
+  .hero-stats { right: 16px; bottom: 24px; left: 16px; }
+}
